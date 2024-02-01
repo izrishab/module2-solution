@@ -1,0 +1,47 @@
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif; /* Optional: Setting a font-family */
+    }
+
+    h1 {
+      font-size: 150%; /* 75% larger than the default font size */
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    section {
+      box-sizing: border-box;
+      border: 1px solid black;
+      margin: 10px;
+      overflow: hidden;
+    }
+
+    .section-title {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #4CAF50; /* Unique color for section title background */
+      color: white; /* Adjust text color for readability */
+      padding: 5px 10px;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      section {
+        width: 48%;
+        float: left;
+      }
+
+      section:nth-child(3) {
+        clear: both;
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 767px) {
+      section {
+        width: 100%;
+        float: none;
+      }
+    }
+  </style>
