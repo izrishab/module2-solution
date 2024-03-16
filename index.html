@@ -4,24 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>assignment</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>our menu</h1>
+  <nav class="navbar navbar-default navbar-static">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#">Chicken</a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <section id="box">
-    <div class="section-title">Chicken</div>
-    <p>Chicken: It's what's for dinner." We've all heard it, and it's true: chicken breasts, thighs (our favorite cut), or even a whole bird all have a spot on our kitchen table.</p>
-  </section>
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
 
-  <section  id="box">
-    <div class="section-title">Beef</div>
-    <p>Beef is the culinary name for meat from cattle (Bos taurus). Beef can be prepared in various ways; cuts are often used for steak, which can be cooked to varying degrees of doneness, while trimmings are often ground or minced, as found in most hamburgers.</p>
-  </section>
+    <section id="box" class="col-md-4 col-sm-6 col-xs-12">
+      <div class="section-title">Chicken</div>
+      <p>Chicken: It's what's for dinner." We've all heard it, and it's true: chicken breasts, thighs (our favorite cut), or even a whole bird all have a spot on our kitchen table.</p>
+    </section>
 
-  <section  id="box">
-    <div class="section-title">Sushi</div>
-    <p>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, plus a variety of ingredients, such as vegetables, and any meat, but most commonly seafood.</p>
-  </section>
+    <section id="box" class="col-md-4 col-sm-6 col-xs-12">
+      <div class="section-title">Beef</div>
+      <p>Beef is the culinary name for meat from cattle (Bos taurus). Beef can be prepared in various ways; cuts are often used for steak, which can be cooked to varying degrees of doneness, while trimmings are often ground or minced, as found in most hamburgers.</p>
+    </section>
+
+    <section id="box" class="col-md-4 col-sm-6 col-xs-12">
+      <div class="section-title">Sushi</div>
+      <p>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, plus a variety of ingredients, such as vegetables, and any meat, but most commonly seafood.</p>
+    </section>
+  </div>
+
+  <div class="tall-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
