@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: pink; 
+  font-family: Arial, sans-serif; 
 }
 
 #box {
@@ -31,6 +30,11 @@ body {
 .tall-section {
   background-color: lightgray;
   padding: 50px 0;
+}
+
+/* Add background color for the dropdown menu */
+.navbar-nav.visible-xs {
+  background-color: lightgray;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
